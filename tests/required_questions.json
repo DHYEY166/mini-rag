@@ -1,0 +1,32 @@
+[
+    {
+      "question": "How much can I spend on food each day?",
+      "must_include": ["$65"],
+      "section": "1. Meals"
+    },
+    {
+      "question": "Can I book first-class airfare?",
+      "must_include": ["economy"],
+      "section": "3. Airfare"
+    },
+    {
+      "question": "My hotel costs $250. What do I need?",
+      "must_include": ["manager"],
+      "section": "2. Hotels"
+    },
+    {
+      "question": "Do I need a receipt for a $20 taxi?",
+      "must_include": ["25"],
+      "section": "5. Receipts"
+    },
+    {
+      "question": "Can I claim a limousine upgrade?",
+      "must_include": ["not reimbursable"],
+      "section": "4. Ground Transportation"
+    },
+    {
+      "question": "Does the company reimburse gym memberships?",
+      "must_include": [],
+      "section": null
+    }
+  ]
