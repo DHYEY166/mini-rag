@@ -12,6 +12,7 @@ from pathlib import Path
 import psycopg
 from dotenv import load_dotenv
 from pgvector.psycopg import register_vector
+from pgvector import Vector
 
 load_dotenv()
 
@@ -164,7 +165,7 @@ def ingest(policy_path: str) -> None:
                         chunk["section"],
                         chunk["section_title"],
                         chunk["text"],
-                        embed_chunk(chunk),
+                        Vector(embed_chunk(chunk)),
                     ),
                 )
         conn.commit()
@@ -172,7 +173,7 @@ def ingest(policy_path: str) -> None:
 
 
 def retrieve(question: str) -> list[dict]:
-    query_vector = embed_text(question, role="query")
+    query_vector = Vector(embed_text(question, role="query"))
     sql = """
         SELECT document, version, section, section_title, text,
                embedding <=> %s AS distance

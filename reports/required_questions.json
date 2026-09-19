@@ -1,0 +1,136 @@
+[
+  {
+    "question": "How much can I spend on food each day?",
+    "answer": "Section 1. Meals. Employees may claim up to $65 per day for meals while traveling overnight.",
+    "citation": {
+      "document": "Employee Expense Policy",
+      "version": "2.0",
+      "section": "1. Meals"
+    },
+    "retrieved_chunks": [
+      {
+        "section": "1. Meals",
+        "distance": 0.5616651753084678
+      },
+      {
+        "section": "5. Receipts",
+        "distance": 0.6561019914180632
+      },
+      {
+        "section": "2. Hotels",
+        "distance": 0.7177640879820548
+      }
+    ]
+  },
+  {
+    "question": "Can I book first-class airfare?",
+    "answer": "Employees must purchase economy airfare. Section 3. Airfare",
+    "citation": {
+      "document": "Employee Expense Policy",
+      "version": "2.0",
+      "section": "3. Airfare"
+    },
+    "retrieved_chunks": [
+      {
+        "section": "3. Airfare",
+        "distance": 0.525008560717514
+      },
+      {
+        "section": "4. Ground Transportation",
+        "distance": 0.6843076081825532
+      },
+      {
+        "section": "2. Hotels",
+        "distance": 0.7291746524496595
+      }
+    ]
+  },
+  {
+    "question": "My hotel costs $250. What do I need?",
+    "answer": "A manager must approve higher rates. Section 2. Hotels",
+    "citation": {
+      "document": "Employee Expense Policy",
+      "version": "2.0",
+      "section": "2. Hotels"
+    },
+    "retrieved_chunks": [
+      {
+        "section": "2. Hotels",
+        "distance": 0.5174086391925777
+      },
+      {
+        "section": "1. Meals",
+        "distance": 0.648982619996693
+      },
+      {
+        "section": "5. Receipts",
+        "distance": 0.6613589025353726
+      }
+    ]
+  },
+  {
+    "question": "Do I need a receipt for a $20 taxi?",
+    "answer": "Receipts are required for individual expenses of $25 or more. Section 5. Receipts",
+    "citation": {
+      "document": "Employee Expense Policy",
+      "version": "2.0",
+      "section": "5. Receipts"
+    },
+    "retrieved_chunks": [
+      {
+        "section": "5. Receipts",
+        "distance": 0.534779357392988
+      },
+      {
+        "section": "4. Ground Transportation",
+        "distance": 0.5825973604097154
+      },
+      {
+        "section": "2. Hotels",
+        "distance": 0.6920357141345603
+      }
+    ]
+  },
+  {
+    "question": "Can I claim a limousine upgrade?",
+    "answer": "Luxury vehicle upgrades are not reimbursable. Section 4. Ground Transportation",
+    "citation": {
+      "document": "Employee Expense Policy",
+      "version": "2.0",
+      "section": "4. Ground Transportation"
+    },
+    "retrieved_chunks": [
+      {
+        "section": "4. Ground Transportation",
+        "distance": 0.5088358479328845
+      },
+      {
+        "section": "3. Airfare",
+        "distance": 0.6839751100688516
+      },
+      {
+        "section": "2. Hotels",
+        "distance": 0.6842938598535473
+      }
+    ]
+  },
+  {
+    "question": "Does the company reimburse gym memberships?",
+    "answer": "The provided policy does not answer this question.",
+    "citation": null,
+    "retrieved_chunks": [
+      {
+        "section": "4. Ground Transportation",
+        "distance": 0.6402368223878521
+      },
+      {
+        "section": "1. Meals",
+        "distance": 0.6892364424033939
+      },
+      {
+        "section": "2. Hotels",
+        "distance": 0.7114340358983794
+      }
+    ]
+  }
+]
